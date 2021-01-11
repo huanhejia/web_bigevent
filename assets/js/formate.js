@@ -13,7 +13,6 @@ $.ajaxPrefilter(function(options) {
             localStorage.removeItem('token')
 
         }
-        console.log(res);
     }
 
     options.url = 'http://api-breakingnews-web.itheima.net' + options.url
