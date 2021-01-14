@@ -40,3 +40,7 @@ function renderAvata(user) {
     }
 
 }
+
+function artListIndex() {
+    $('#artlist').click()
+}
